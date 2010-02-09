@@ -1,0 +1,6 @@
+alpha=`pwd`
+cd /usr/share/images
+nitrogen
+killall wbar
+wbar -vbar -pos right isize 16 -zoomf 1.1 -balfa 100 -falfa 100 -filter 3 -fc 0xBBBBBBBBB &
+cd $alpha

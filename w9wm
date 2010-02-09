@@ -1,0 +1,4 @@
+x9wm -grey -font 6x13 -pass restart &
+w9wm-reset-desktop &
+exec xterm -geometry 18x1+0+0 -e x9wm   
+ 

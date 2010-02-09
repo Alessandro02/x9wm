@@ -1,0 +1,13 @@
+# build x9wm - Giuseppe Altea (c)2010+others a w9wm fork/twist
+gcc -O3 x9wm.c -lX11 -lXext  -o x9wm
+rm /usr/bin/x9wm 
+# copy the actual window manager 
+cp x9wm /usr/bin/x9wm
+# copy the window manager session starter
+#cp w9wm /usr/bin/w9wm
+# copy the window manager desktop reseter
+cp w9wm-reset-desktop /usr/bin/w9wm-reset-desktop
+cp xoot /usr/bin
+chmod +x /usr/bin/xoot
+
+
